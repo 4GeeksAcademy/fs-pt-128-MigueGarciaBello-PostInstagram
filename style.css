@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #000;
+}
+/*Clases para los ICONOS global*/
+.iconos{
+    color: #000;
+    font-size:30px;
+}
+/*Clase para contenedor del POST*/
+.post{
+    width: 400px;
+    height: 600px;
+    margin: 30px auto;
+}
+/*Clases para el HEADER*/
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px;
+}
+.post-header__left,.post-header__rigth{
+    display: flex;
+    align-items:center;
+}
+.left-txt > h1{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.left-txt > p{
+    font-size: 12px;
+}
+.post-img{
+    width: 400px;
+    background-color: #fff;
+}
+.post-img img{
+    object-fit:cover;
+    object-position: center;
+    max-width: 100%;
+    height: auto;
+    
+}
+.post-footer{
+    background-color:#ffffff;
+    padding: 5px;
+    height: auto;
+}
+.post-footer__iconos{
+    display: flex;
+    justify-content: space-between;
+}
+.iconos-left, .iconos-rigth{
+    display:flex;
+    align-items: center;
+}
+.post-footer__txt{
+    padding:10px;
+    font-size: 13px;
+}
+.post-footer__txt p{
+    padding-top:5px;
+}
+
+span{
+    font-weight:bold;
+}
