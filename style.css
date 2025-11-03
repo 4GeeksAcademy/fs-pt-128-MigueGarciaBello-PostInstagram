@@ -35,6 +35,7 @@ body{
 .left-txt > p{
     font-size: 12px;
 }
+/*Estilos para IMAGEN*/
 .post-img{
     width: 400px;
     background-color: #fff;
@@ -46,6 +47,7 @@ body{
     height: auto;
     
 }
+/*Estilos para el FOOTER*/
 .post-footer{
     background-color:#ffffff;
     padding: 5px;
@@ -70,3 +72,4 @@ body{
 span{
     font-weight:bold;
 }
+/*Tanto la imagen como el pie tienen el heigth autoajustable permitiendo escribir más texto o modificar la imagen si fuese necesario*/
